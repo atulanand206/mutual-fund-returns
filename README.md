@@ -5,7 +5,7 @@ Historical NAV data for Indian mutual funds are provided by the site https://www
 For instance NAV data of “SBI Equity Hybrid Fund” can be got in JSON format using the URL
 https://api.mfapi.in/mf/102885
 
-####Problem Statement
+#### Problem Statement
 You are required to compute the trailing returns for a Mutual scheme investment month wise
 for different time period of investments over a time period (horizon).
 
@@ -27,7 +27,7 @@ Program outline
 4. Compute trailing returns for entire horizon month over month for the latest date
 available in NAV data
 
-#####Example
+##### Example
 You are running the program on 16-Jul-20, the latest NAV you will have would be for 15-Jul-
 20
 
@@ -64,25 +64,25 @@ Month wise returns
 |        |         |End nav – 16-Jul-20   |
 
 
-#####Note
+##### Note
 1. If NAV for a particular date is not available, choose the NAV of next available date
 2. If data is not available (if date is before launch date) return zero as the return
 
-#####Tech stack
+##### Tech stack
 1. Any tech stack comfortable
 2. App can be a pure command line based application built on Java or Spring or Python or it can
 be pure JavaScript app built on top of framework like Angular or react
 
-#####Points evaluated
+##### Points evaluated
 1. Code organization &amp; structuring
 2. Testability of code
 3. Either actual tests or at least clear ideas of what/how to test
 
-####Solution
+#### Solution
 The solution is implemented to provide the following web controller endpoints.
 1. Get Schemes: `/funds`
 2. Get Scheme by code: `/funds/{fundCode}?period={period}&horizon={horizon}` 
 
-####Reference
+#### Reference
 1. https://www.investopedia.com/ask/answers/050415/what-good-annual-return-mutual-scheme.asp
 2. https://www.investopedia.com/articles/08/annualized-returns.asp
