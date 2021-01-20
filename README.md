@@ -61,8 +61,6 @@ Month wise returns
 |        |         |                      |
 | Jul-20 |  xx%    |Start nav – 16-Jul-19 |
 |        |         |End nav – 16-Jul-20   |
-|        |         |                      |
-|        |         |                      |
 
 
 Note
@@ -80,6 +78,5 @@ Points evaluated
 3. Either actual tests or at least clear ideas of what/how to test
 
 Reference
-1. https://www.investopedia.com/ask/answers/050415/what-good-annual-return-mutual-
-fund.asp
+1. https://www.investopedia.com/ask/answers/050415/what-good-annual-return-mutual-fund.asp
 2. https://www.investopedia.com/articles/08/annualized-returns.asp
